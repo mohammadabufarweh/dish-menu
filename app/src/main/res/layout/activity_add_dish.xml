@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddDish"
+    android:orientation="vertical"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:layout_marginTop="50dp">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dish-Name"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="56dp"
+
+        />
+
+
+    <EditText
+        android:id="@+id/dishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Dish Name"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:layout_marginBottom="30dp"/>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Dish-Price" />
+
+    <EditText
+        android:id="@+id/dishPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Price"
+        android:layout_marginBottom="30dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Ingredients" />
+
+    <EditText
+        android:id="@+id/dishIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Ingredients Here " />
+
+    <Button
+        android:id="@+id/buttonAddDish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+</LinearLayout>
